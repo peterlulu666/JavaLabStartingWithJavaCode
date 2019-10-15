@@ -1,4 +1,4 @@
-package JavaLabMoney;
+package JavaLabObject;
 
 // Objects represent nonnegative amounts of money
 public class Money {

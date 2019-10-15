@@ -1,4 +1,4 @@
-package JavaLabMoney;
+package JavaLabObject;
 
 //Demonstrates the CreditCard class
 

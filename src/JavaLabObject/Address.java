@@ -1,4 +1,4 @@
-package JavaLabMoney;
+package JavaLabObject;
 
 //Defines an address using a street, city, state, and zipcode
 

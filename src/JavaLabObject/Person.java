@@ -1,4 +1,4 @@
-package JavaLabMoney;
+package JavaLabObject;
 
 //Defines a person by name and address
 

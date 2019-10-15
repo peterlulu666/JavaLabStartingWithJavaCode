@@ -1,4 +1,4 @@
-package JavaLabMoney;
+package JavaLabObject;
 
 
 //This program tests the money class.

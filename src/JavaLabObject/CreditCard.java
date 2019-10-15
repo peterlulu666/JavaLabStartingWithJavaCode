@@ -1,4 +1,4 @@
-package JavaLabMoney;
+package JavaLabObject;
 
 // I will create my CreditCard file.
 // It should have data fields that include an owner of type Person,
