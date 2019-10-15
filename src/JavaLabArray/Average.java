@@ -45,14 +45,31 @@ public class Average {
     // Returns a String containing data in descending order and the mean
     // Returns array of element
     public String toStrong() {
-//        String dataOrder = "Data in descending order: ";
+//        // Java String concatenation in loop
+//        String sortedData = "Data in descending order: ";
 //        for (int i = 0; i < this.data.length; i++) {
-//            dataOrder += this.data[i] + " ";
+//            sortedData += this.data[i] + " ";
 //
 //        }
 //
-//        return dataOrder.concat(" \n").concat("Mean: " + this.mean);
+//        return sortedData + "\n" + "Mean: " + this.mean;
 
+//        // Java String concatenation in loop
+//        String displayData = "Data in descending order: ";
+//        String sortedData = "";
+//        for (int i = 0; i < this.data.length; i++) {
+//            sortedData = sortedData.concat
+//                    (this.data[i] + " ");
+//
+//
+//        }
+//
+//        return displayData.concat
+//                (sortedData).concat
+//                (" \n").concat
+//                ("Mean: " + this.mean);
+
+//        // Java array copy
 //        int [] sortedData = new int[5];
 //        for (int i = 0; i < this.data.length; i++) {
 //            sortedData[i] = this.data[i];
@@ -68,6 +85,10 @@ public class Average {
 //                ("Mean: ").concat
 //                (Double.toString(this.mean));
 
+        // Java String concatenation by concat()
+        // Java array to String
+        // Java double to String
+        // Java String format()
         return ("Data in descending order: ").concat
                 (Arrays.toString(this.data)).concat
                 (" \n").concat
@@ -75,7 +96,9 @@ public class Average {
                 (String.valueOf(this.mean)).concat
                 (" \n").concat
                 ("Mean: ").concat
-                (Double.toString(this.mean));
+                (Double.toString(this.mean)).concat
+                (" \n").concat
+                (String.format("Mean: %.20f", this.mean));
 
 
     }
