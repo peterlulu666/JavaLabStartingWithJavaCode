@@ -44,6 +44,11 @@ public class CreditCard {
             System.out.println("Charge: " + amount);
             balance = balance.add(amount);
         }
+        else {
+            System.out.println("Exceeds credit limit ");
+
+
+        }
 
 
     }
