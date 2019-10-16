@@ -7,7 +7,8 @@ import java.text.DecimalFormat;
 
 public class PizzaOrder {
     public static void main(String[] args) {
-        //TASK #5 Create a DecimalFormat object with 2 decimal places
+        // TASK #5 Create a DecimalFormat object with 2 decimal places
+        // Create a DecimalFormat object that always shows 2 decimal places.
         DecimalFormat decimalFormat = new DecimalFormat("#0.00");
 
         //Create a Scanner object to read input
@@ -194,8 +195,9 @@ public class PizzaOrder {
         //display cost of pizza
         cost = order.getCost();
 
-        //EDIT PROGRAM FOR TASK #5
-        //SO ALL MONEY OUTPUT APPEARS WITH 2 DECIMAL PLACES
+        // EDIT PROGRAM FOR TASK #5
+        // SO ALL MONEY OUTPUT APPEARS WITH 2 DECIMAL PLACES
+        // Edit the appropriate lines in the main method so that any monetary output has 2 decimal places.
         System.out.println("The cost of your order is: $" + decimalFormat.format(cost));
 
         //calculate and display tax and total cost
