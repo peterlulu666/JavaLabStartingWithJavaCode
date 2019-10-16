@@ -52,26 +52,22 @@ public class Television {
     // changes the state from true to false or from false to true.
     // This can be accomplished by using the NOT operator (!).
     // If the boolean variable powerOn is true, then !powerOn is false and vice versa.
-    public void power(){
+    public void power() {
         powerOn = !powerOn;
     }
 
     // Define two mutator methods to change the volume.
     // One method should be called increaseVolume and will increase the volume by 1.
     // The other method should be called decreaseVolume and will decrease the volume by 1.
-    public void increaseVolume(){
+    public void increaseVolume() {
         this.volume = this.volume + 1;
 
     }
 
-    public void decreaseVolume(){
+    public void decreaseVolume() {
         this.volume = this.volume - 1;
 
     }
-
-
-
-
 
 
 }
