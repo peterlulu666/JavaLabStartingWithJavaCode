@@ -21,6 +21,9 @@ public class NumericTypes
         System.out.println("Enter your last name ");
         // Read the name from the keyboard and store it in a variable called lastName.
         String lastName = scanner.nextLine();
+        String fullName = lastName.concat(" ").concat(firstName);
+        System.out.println("Your full name is " + fullName);
+
 
 
 
@@ -41,7 +44,7 @@ public class NumericTypes
         //TASK #4 declare variables used here
 
         // Find an arithmetic average
-        average = SCORE1 + SCORE2 / NUMBER;
+        average = (double)(SCORE1 + SCORE2) / NUMBER;
         output = SCORE1 + " and " + SCORE2 + " have an average of "
                 + average;
         System.out.println(output);
