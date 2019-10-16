@@ -29,6 +29,10 @@ public class NumericTypes {
         //TASK #3 declare variables used here
         char firstInitial;
         //TASK #4 declare variables used here
+        double diameter;
+        double radius;
+        double volume;
+
 
         // Find an arithmetic average
         // You need to correct logic errors in the average formula and the temperature conversion formula.
@@ -80,15 +84,22 @@ public class NumericTypes {
         System.out.println("There are " + fullName.length() + " characters in the string stored in full name");
 
 
-
         System.out.println();        // to leave a blank line
 
         // ADD LINES FOR TASK #4 HERE
         // prompt the user for a diameter of a sphere
-        // read the diameter
-        // calculate the radius
-        // calculate the volume
-        // print out the volume
+        System.out.println("Enter the diameter of a sphere ");
+        // Read in and store the number into a variable called diameter.
+        diameter = scanner.nextInt();
+        // The diameter is twice as long as the radius,
+        // so calculate and store the radius in an appropriately named variable.
+        radius = diameter * 2;
+        // Volume of a sphere.
+        volume = 4 * Math.PI * Math.pow(radius, 3) / 3;
+        // Print your results to the screen with an appropriate message.
+        System.out.println("The volume of a sphere is " + Math.round(volume * 100.0) / 100.0);
+        
+
     }
 }
 
