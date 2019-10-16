@@ -106,7 +106,7 @@ public class PizzaOrder {
                 "(D) Deep-dish (enter H, T, or D): ");
         input = keyboard.nextLine();
         crustType = input.charAt(0);
-//        // All the crustType input would be upper case.
+//        // All the switch case would be upper case.
 //        crustType = Character.toUpperCase(input.charAt(0));
 
         //set user's crust choice on pizza ordered
