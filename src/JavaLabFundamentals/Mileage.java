@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class Mileage {
     public static void main(String[] args) {
+        // Miles driven
         double miles;
+        // Gallons used
         double gallons;
+        // Miles per gallon
         double mpg;
 
         Scanner scanner = new Scanner(System.in);
